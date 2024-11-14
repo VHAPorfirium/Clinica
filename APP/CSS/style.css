@@ -1,10 +1,12 @@
+/* Estilos Gerais */
 body {
     font-family: Arial, sans-serif;
-    background-color: #B3E5FC; /* Azul bebê pro fundo da pagina */
+    background-color: #B3E5FC; /* Azul bebê para o fundo da página */
     margin: 0;
     padding: 0;
 }
 
+/* Cabeçalho / Navbar */
 .navbar {
     background-color: #0288D1; /* Azul escuro para o cabeçalho */
     color: white;
@@ -26,4 +28,66 @@ body {
 
 .navbar nav a:hover {
     text-decoration: underline;
+}
+
+/* Hero / Banner Section */
+.hero {
+    background-color: #81D4FA; /* Azul mais claro para destacar o banner */
+    color: #01579B; /* Texto em azul escuro */
+    text-align: center;
+    padding: 2em 1em;
+    margin-top: 1em;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+/* Seção Sobre */
+.section {
+    padding: 2em;
+    text-align: center;
+}
+
+.section h3 {
+    font-size: 1.8em;
+    color: #0277BD;
+    margin-bottom: 0.5em;
+}
+
+.section p {
+    font-size: 1.1em;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilos adicionais para responsividade */
+@media (max-width: 768px) {
+    .navbar nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero h2 {
+        font-size: 1.6em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .section h3 {
+        font-size: 1.6em;
+    }
+
+    .section p {
+        font-size: 1em;
+    }
 }
