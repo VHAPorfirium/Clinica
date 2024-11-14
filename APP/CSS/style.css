@@ -30,6 +30,29 @@ body {
     text-decoration: underline;
 }
 
+/* Carrossel de Informações */
+.info-carousel {
+    background-color: white; /* Cor de fundo branca para o carrossel */
+    color: black; /* Cor do texto preta */
+    text-align: center;
+    padding: 0.5em 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+    overflow: hidden;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-bottom: 2px solid #0288D1; 
+}
+
+#carousel-text {
+    position: absolute;
+    transition: transform 0.5s ease; /* Animação de transição */
+    color: black; /* Garante que o texto do carrossel seja preto */
+}
+
 /* Hero / Banner Section */
 .hero {
     background-color: #81D4FA; /* Azul mais claro para destacar o banner */
