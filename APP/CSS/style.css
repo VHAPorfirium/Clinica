@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B3E5FC; /* Azul bebê pro fundo da pagina */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #0288D1; /* Azul escuro para o cabeçalho */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
