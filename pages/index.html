@@ -5,35 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bem-vindo à nossa clínica! Conheça nossos serviços e entre em contato conosco.">
     <title>Clínica Saúde e Bem-Estar</title>
-    <!-- Vinculando o css ao projeto -->
     <link rel="stylesheet" href="../APP/CSS/style.css">
 </head>
 <body>
+    <!-- Cabeçalho -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="../images/Logo atualizada.png" alt="Logo da Clínica" />
+            </div>
+            <h1>Clínica Saúde e Bem-Estar</h1>
+            <nav>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
 
     <!-- Carrossel de Informações -->
     <div class="info-carousel">
         <p id="carousel-text">Bem-vindo à Clínica Saúde e Bem-Estar! Cuide da sua saúde com a gente.</p>
     </div>
 
-    <header class="navbar">
-        <h1>Clínica Saúde e Bem-Estar</h1>
-        <nav>
-            <a href="#sobre">Sobre</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#contato">Contato</a>
-        </nav>
-    </header>
-
-    <!-- Seções de conteúdo aqui -->
-    <section id="sobre">...</section>
-    <section id="servicos">...</section>
-    <section id="contato">...</section>
-
-    <!-- Banner / Hero Section -->
     <section class="hero">
         <h2>Cuide da sua saúde conosco</h2>
         <p>Oferecemos serviços especializados para pessoas neurodivergentes!</p>
-        <p>Com foco na sua saúde e na sua tranquilidade mental dos pacientes.</p>
+        <p>Com foco na sua saúde e na sua tranquilidade mental.</p>
+        <button class="cta-button">Saiba Mais</button>
     </section>
 
     <!-- Sobre a Clínica -->
@@ -42,6 +41,31 @@
         <p>Clínica Saúde e Bem-Estar é uma clínica de baixo custo com foco em atendimento especializado para pessoas neurodivergentes.</p>
         <p>A clínica visa oferecer serviços de qualidade, acessíveis e acolhedores para todos os seus pacientes.</p>
     </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <h4>Sobre Nós</h4>
+                <p>
+                    A Clínica Saúde e Bem-Estar oferece atendimento de qualidade, 
+                    especializado e acessível, com foco em proporcionar saúde e tranquilidade aos nossos pacientes.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Desenvolvido por Dual Balance</p>
+        </div>
+    </footer>
 
     <!-- Vinculando o arquivo JavaScript -->
     <script src="../APP/JS/script.js"></script>

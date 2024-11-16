@@ -1,116 +1,155 @@
 /* Estilos Gerais */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #B3E5FC; /* Azul bebê para o fundo da página */
+    font-family: 'Arial', sans-serif;
+    background-color: white; /* Fundo branco */
     margin: 0;
     padding: 0;
+    color: #1C1C1C; /* Texto padrão em preto suave */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Cabeçalho / Navbar */
 .navbar {
-    background-color: #0288D1; /* Azul escuro para o cabeçalho */
-    color: white;
-    padding: 1em;
+    background-color: #FFFFFF; /* Fundo branco para o cabeçalho */
+    color: #0277BD; /* Azul escuro para texto */
+    padding: 1em 0;
     text-align: center;
+    border-bottom: 3px solid #81C784; /* Verde claro para destaque */
 }
 
 .navbar h1 {
     margin: 0;
     font-size: 1.8em;
+    color: #0277BD; /* Azul escuro */
 }
 
 .navbar nav a {
-    color: white;
+    color: #0277BD; /* Azul escuro para links */
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 .navbar nav a:hover {
-    text-decoration: underline;
+    color: #81C784; /* Verde claro no hover */
 }
 
 /* Carrossel de Informações */
 .info-carousel {
-    background-color: white; /* Cor de fundo branca para o carrossel */
-    color: black; /* Cor do texto preta */
+    background-color: #E8F5E9; /* Verde claro para o fundo do carrossel */
+    color: #1B5E20; /* Verde escuro para texto */
     text-align: center;
-    padding: 0.5em 1em;
+    padding: 1em;
     font-size: 1.1em;
     font-weight: bold;
     overflow: hidden;
-    height: 2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    border-bottom: 2px solid #0288D1; 
+    border-bottom: 3px solid #0277BD; /* Azul escuro para borda */
 }
 
-#carousel-text {
-    position: absolute;
-    transition: transform 0.5s ease; /* Animação de transição */
-    color: black; /* Garante que o texto do carrossel seja preto */
-}
-
-/* Hero / Banner Section */
+/* Banner Section */
 .hero {
-    background-color: #81D4FA; /* Azul mais claro para destacar o banner */
-    color: #01579B; /* Texto em azul escuro */
+    background-color: #0277BD; /* Azul escuro para o fundo do banner */
+    color: white; /* Texto branco */
     text-align: center;
-    padding: 2em 1em;
-    margin-top: 1em;
+    padding: 3em 1em;
 }
 
 .hero h2 {
-    font-size: 2em;
-    margin: 0.5em 0;
+    font-size: 2.5em;
 }
 
 .hero p {
     font-size: 1.2em;
-    margin: 0.5em 0;
 }
 
-/* Seção Sobre */
+.hero .cta-button {
+    background-color: #81C784; /* Botão verde claro */
+    color: white; /* Texto branco */
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background-color: #66BB6A; /* Verde mais escuro no hover */
+}
+
+/* Sobre a Clínica */
 .section {
     padding: 2em;
     text-align: center;
 }
 
 .section h3 {
-    font-size: 1.8em;
-    color: #0277BD;
-    margin-bottom: 0.5em;
+    font-size: 2em;
+    color: #1B5E20; /* Título em verde escuro */
 }
 
 .section p {
-    font-size: 1.1em;
-    color: #555;
+    font-size: 1.2em;
+    color: #1C1C1C; /* Texto em preto suave */
     max-width: 600px;
     margin: 0 auto;
 }
 
-/* Estilos adicionais para responsividade */
-@media (max-width: 768px) {
-    .navbar nav a {
-        display: block;
-        margin: 10px 0;
-    }
+/* Rodapé */
+.footer {
+    background-color: #0277BD; /* Fundo azul escuro */
+    color: white;
+    padding: 2em 1em;
+    text-align: center;
+}
 
-    .hero h2 {
-        font-size: 1.6em;
-    }
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-    .hero p {
-        font-size: 1em;
-    }
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+}
 
-    .section h3 {
-        font-size: 1.6em;
-    }
+.footer-left ul li {
+    margin: 0.5em 0;
+}
 
-    .section p {
-        font-size: 1em;
-    }
+.footer-left ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-left ul li a:hover {
+    color: #81C784; /* Hover em verde claro */
+}
+
+.footer-right {
+    max-width: 400px;
+    text-align: left;
+}
+
+.footer-right h4 {
+    margin-bottom: 0.5em;
+}
+
+.footer-bottom {
+    margin-top: 2em;
+    border-top: 1px solid #81C784; /* Linha de separação */
+    padding-top: 1em;
+    font-size: 0.8em; /* Texto menor */
+    color: #DCDCDC; /* Cinza claro */
 }
