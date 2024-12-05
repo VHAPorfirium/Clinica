@@ -31,4 +31,4 @@ A Clínica é uma iniciativa que busca oferecer suporte a pessoas neurodivergent
 
 ---
 
-Projeto em desenvolvimento por [Victor Hugo Aguiar Porfiro], para a clínica da madrinha, sem nenhum fim lucrativo.
+Projeto em desenvolvimento por [Victor Hugo Aguiar Porfiro e Josue Felix], para a clínica da madrinha, sem nenhum fim lucrativo.
